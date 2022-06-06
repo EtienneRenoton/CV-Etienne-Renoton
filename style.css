@@ -1,0 +1,62 @@
+h2 {
+    color: rgb(235, 98, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+a {
+    color: rgb(235, 98, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.gradiant_title {
+    
+    width: 80%;
+    height: 8px;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 999px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.site {
+    color: rgb(252, 252, 252);
+    background-color: black;
+    font-family :Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+.main_title {
+    color: rgb(252, 252, 252);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 32px;
+}
+nav {
+    margin-bottom: 32px;
+}
+nav ul {
+    display: flex;
+    margin:0;
+    padding: 0;
+    gap: 16px;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    
+}
+
+nav ul li a {
+    background-color: rgb(40,40,40);
+    border-radius: 999px;
+    padding: 8px;
+    transition-duration: 0.2s;
+}
+
+nav ul li a:hover {
+    background-color: rgb(235, 98, 48);
+    color: white;
+}
