@@ -75,3 +75,50 @@ nav ul li a svg {
     width: 20px;
 
 }
+
+.contact_form {
+   
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;   
+}
+
+.form-control input, .form-control select {
+    height: 32px;
+    background-color: transparent;
+    border: solid 1px orangered;
+    border-radius: 999px;
+    color:rgb(252, 252, 252);
+    text-align: center;
+
+} 
+
+.form-control select option {
+    color: black;
+}
+
+.form-control textarea {
+    background-color: transparent;
+    border: solid 1px orangered;
+    border-radius: 10px;
+}
+
+.contact_form button {
+   padding: 8px 16px;
+   background-color: rgb(131,58,180);
+   color: white;
+   border-radius: 999px;
+   border: solid 1px white;
+   font-weight: bold;
+   display: block;
+   margin: auto;
+
+}
