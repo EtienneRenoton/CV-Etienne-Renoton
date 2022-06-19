@@ -109,6 +109,7 @@ nav ul li a svg {
     background-color: transparent;
     border: solid 1px orangered;
     border-radius: 10px;
+    color: white;
 }
 
 .contact_form button {
@@ -120,5 +121,13 @@ nav ul li a svg {
    font-weight: bold;
    display: block;
    margin: auto;
+
+}
+
+.form-control .error {
+    display: none;
+    color: red;
+    font-style: italic;
+    text-align: center;
 
 }

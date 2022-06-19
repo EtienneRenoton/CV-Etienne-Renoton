@@ -30,21 +30,33 @@
       <div class="form-control">
         <label for="lastname">Nom : </label>
         <input type="text" name="lastname" id="lastname" required />
+      <div class="error">
+        Attention, vous avez oublié de mettre votre nom ! 
+      </div>
       </div>
       <br />
       <div class="form-control">
         <label for="firstname">Prénom : </label>
         <input type="text" name="firstname" id="firstname" required />
+        <div class="error">
+          Attention, vous avez oublié de mettre votre prénom ! 
+        </div>
       </div>
       <br />
       <div class="form-control">
         <label for="email">Email : </label>
         <input type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" />
+        <div class="error">
+          Attention, vous avez oublié de mettre votre mail ! 
+        </div>
       </div>
       <br />
       <div class="form-control">
         <label for="phoneNumber">Numéro de téléphone : </label>
         <input type="tel" name="phoneNumber" id="phoneNumber" required />
+        <div class="error">
+          Attention, vous avez oublié de mettre votre n° de téléphone ! 
+        </div>
       </div>
       <br />
       <div class="form-control">
@@ -56,18 +68,24 @@
           <option value="Email">Email</option>
           <option value="Téléphone">Téléphone</option>
         </select>
+        <div class="error">
+          Attention, veuillez renseignez un moyen de contact préféré ! 
+        </div>
       </div>
       <br />
       <div class="form-control">
         <label for="message">Message : </label>
         <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        <div class="error">
+          Merci de bien vouloir me laisser un message :) 
+        </div>
       </div>
    <br>
-        <button type="submit"  formenctype="application/x-www-form-urlencoded" >
+        <button type="button"  formenctype="application/x-www-form-urlencoded" >
          Envoyer </button>
 
     </fieldset>
   </form>
 </body>
-
+<script src="form.js"></script>
 </html>
