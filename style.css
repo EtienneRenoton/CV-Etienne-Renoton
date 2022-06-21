@@ -126,7 +126,7 @@ nav ul li a svg {
 
 .form-control .error {
     display: none;
-    color: red;
+    color: rgb(196, 134, 236);
     font-style: italic;
     text-align: center;
 
